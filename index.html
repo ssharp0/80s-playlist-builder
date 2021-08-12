@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!-- Link to Reset CSS -->
+ <link rel="stylesheet" href="./assets/reset.css">
+ <!-- Link to Boostrap -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+ <!-- Link to Style CSS -->
+ <link rel="stylesheet" href="./assets/style.css">
+ <!-- Title -->
+ <title>80s Playlist Builder</title>
+
+</head>
+<body>
+
+ <div class="jumbotron text-center">
+  <h1>80s Playlist Builder</h1>
+  <h2>Add and Remove 80s Songs to the playlist</h2>
+ </div>
+
+  <!-- Container -->
+  <div class="container text-center">
+
+    <div class="container">
+
+     <div class="panel">
+      <div class="panel-header">
+       <p>Type 80s songs and use the buttons to add or remove songs from the playlist</p>
+       <p>Mark songs as listened to with the check mark (or click again to unmark) and delete songs from the playlist by using the delete button</p>
+      </div>
+
+      <div class="panel-body">
+       <form>
+        <p>
+         <hr>
+         <hr>
+         <p>
+          <label for="song">Song Title</label>
+         </p>
+         <p>
+          <input type="text" name="song" id="song">
+         </p>
+        </p>
+         <button id="addSong">Add Song to Playlist</button>
+         <hr>
+       </form>
+      </div>
+      
+     </div>
+
+     <div class="content">
+      <p>
+       Playlist:
+      </p>
+      <ul id="songs"></ul>
+     </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+  <script src="./script.js"></script>
+
+ 
+</body>
+</html>
