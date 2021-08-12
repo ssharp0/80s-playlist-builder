@@ -3,8 +3,9 @@ body {
 }
 
 .jumbotron {
- background-color: #B5838D;
+ background-color: white;
  margin: 2%;
+ padding: 1%;
 }
 
 .container {
@@ -39,3 +40,15 @@ li {
  background-color: white;
 }
 
+button {
+ background-color: rgba(0, 0, 0, 0.87);
+ opacity: 70%;
+ color: red;
+}
+
+.panel-body button {
+ background-color: #FFB4A2;
+ color: black;
+ border: solid black;
+ font-weight: bold;
+}
