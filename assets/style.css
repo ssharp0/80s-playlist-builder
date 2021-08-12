@@ -1,0 +1,41 @@
+body {
+ background-color: #6D6875;
+}
+
+.jumbotron {
+ background-color: #B5838D;
+ margin: 2%;
+}
+
+.container {
+ background-color: white;
+ padding: 2%;
+ font-weight: bold;
+}
+
+.content {
+ background-color: #FFB4A2;
+ padding: 2%;
+}
+
+ul {
+ width: 100%;
+ height: 100%;
+ justify-content: center;
+}
+
+li {
+ padding: 2%;
+ margin: 3%;
+}
+
+.notListened {
+ color: white;
+ background-color: #6D6875;
+}
+
+.isListened {
+ color: green;
+ background-color: white;
+}
+
